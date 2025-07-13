@@ -1,3 +1,4 @@
+/* estilos.css */
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -9,29 +10,6 @@ body {
 h1 {
   text-align: center;
   margin-bottom: 30px;
-}
-
-.encabezado {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #e0f7e9;
-  padding: 10px 20px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-.logo-ust {
-  height: 60px;
-  width: auto;
-  background-color: transparent;
-}
-
-.simbolo-psi {
-  height: 50px;
-  width: auto;
-  background-color: transparent;
 }
 
 .malla {
@@ -55,7 +33,7 @@ h1 {
 }
 
 .ramo {
-  background-color: #b2e5c2;
+  background-color: #b2e5c2; /* Verde pastel un poco más oscurito */
   border: 2px solid #79c49a;
   padding: 8px;
   margin-bottom: 8px;
@@ -72,13 +50,13 @@ h1 {
 }
 
 .ramo.aprobado {
-  background-color: #d8ccf2 !important;
+  background-color: #d8ccf2 !important; /* Lavanda */
   border-color: #b399dd;
   color: #4c3e73;
 }
 
 .ramo:hover:not(.disabled):not(.aprobado) {
-  background-color: #9eddb4;
+  background-color: #9eddb4; /* Verde más brillante al hover */
 }
 
 footer {
@@ -95,3 +73,49 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+/* Encabezado con logo y símbolo ψ */
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e0f7e9;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.logo-ust {
+  height: 60px;
+  width: auto;
+}
+
+.simbolo-psi {
+  font-size: 50px;
+  font-weight: bold;
+  color: #4c3e73;
+}
+.logo-esquina {
+  position: absolute;
+  top: 15px;
+  height: 60px;
+  width: auto;
+  z-index: 10;
+}
+
+.logo-esquina.izquierda {
+  left: 20px;
+}
+
+.logo-esquina.derecha {
+  right: 20px;
+}
+
+.titulo-central {
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+}
+
