@@ -56,7 +56,7 @@ h1 {
 }
 
 .ramo:hover:not(.disabled):not(.aprobado) {
-  background-color: #9eddb4; /* Verde un poco más brillante al pasar el mouse */
+  background-color: #9eddb4; /* Verde más brillante al hover */
 }
 
 footer {
@@ -73,6 +73,7 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
 /* Encabezado con logo y símbolo ψ */
 .encabezado {
   display: flex;
