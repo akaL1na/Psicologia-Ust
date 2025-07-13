@@ -33,14 +33,15 @@ h1 {
 }
 
 .ramo {
-  background-color: #d8f5e1;
-  border: 2px solid #8bcbb3;
+  background-color: #a6c8ff; /* Azul pastel oscurito */
+  border: 2px solid #6fa1e8;
   padding: 8px;
   margin-bottom: 8px;
   border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.3s, opacity 0.3s;
   user-select: none;
+  color: #003366;
 }
 
 .ramo.disabled {
@@ -55,5 +56,20 @@ h1 {
 }
 
 .ramo:hover:not(.disabled):not(.aprobado) {
-  background-color: #c1edd6;
+  background-color: #91bfff;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #6a1b9a;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
