@@ -33,15 +33,15 @@ h1 {
 }
 
 .ramo {
-  background-color: #a6c8ff; /* Azul pastel oscurito */
-  border: 2px solid #6fa1e8;
+  background-color: #b2e5c2; /* Verde pastel un poco más oscurito */
+  border: 2px solid #79c49a;
   padding: 8px;
   margin-bottom: 8px;
   border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.3s, opacity 0.3s;
   user-select: none;
-  color: #003366;
+  color: #205b40;
 }
 
 .ramo.disabled {
@@ -56,7 +56,7 @@ h1 {
 }
 
 .ramo:hover:not(.disabled):not(.aprobado) {
-  background-color: #91bfff;
+  background-color: #9eddb4; /* Verde un poco más brillante al pasar el mouse */
 }
 
 footer {
@@ -73,3 +73,4 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
