@@ -33,31 +33,27 @@ h1 {
 }
 
 .ramo {
-  background-color: #b2e5c2; /* Verde pastel un poco más oscurito */
-  border: 2px solid #79c49a;
+  background-color: #cceeff; /* Celeste pastel */
+  border: 2px solid #99cce0;
   padding: 8px;
   margin-bottom: 8px;
   border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.3s, opacity 0.3s;
   user-select: none;
-  color: #205b40;
-}
-
-.ramo.disabled {
-  opacity: 0.4;
-  cursor: not-allowed;
+  color: #1f3a4d;
 }
 
 .ramo.aprobado {
-  background-color: #d8ccf2 !important; /* Lavanda */
-  border-color: #b399dd;
-  color: #4c3e73;
+  background-color: #99bbff !important; /* Azul pastel más oscurito */
+  border-color: #7aa4f0;
+  color: #102a56;
 }
 
 .ramo:hover:not(.disabled):not(.aprobado) {
-  background-color: #9eddb4; /* Verde más brillante al hover */
+  background-color: #b3e0ff; /* Celeste un poquito más fuerte al pasar el mouse */
 }
+
 
 footer {
   margin-top: 30px;
